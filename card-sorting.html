@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card-sorting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/Card-sorting.css">
+</head>
+
+<body>
+
+    <div class="top-banner">
+        <div class="container">
+            <div class="banner-text">📣 Figma prototype testing just got a whole lot better! Read more →
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="container main-nav flex">
+            <a href="./my-website.html" class="company-logo flex">
+                <img src="./images/asset 1.png" alt="company_logo">
+                <div class="become-tester-text">Become a tester</div>
+            </a>
+            <div class="nav-links" id="menu">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Product <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-nav-link flex">
+                            <li><a href="./my-web-overview.html" class="hover-link">Overview</a></li>
+                            <li><a href="./card-sorting.html" class="hover-link">Card sorting</a></li>
+                            <li><a href="./prototype-testing.html" class="hover-link">Prototype testing</a></li>
+                            <li><a href="./design.survey.html" class="hover-link">Design surveys</a></li>
+                            <li><a href="./five-test.html" class="hover-link">Five second tests</a></li>
+                            <li><a href="./preferance.html" class="hover-link">Preference tests</a></li>
+                            <li><a href="./frist-click.html" class="hover-link">First click tests</a></li>
+                            <li><a href="./panel.html" class="hover-link">Panel</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hover-link">Customers</a></li>
+                    <li><a href="#" class="hover-link">Pricing</a></li>
+                    <li><a href="#" class="hover-link">Resources <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-nav-link flex">
+                            <li><a href="#" class="hover-link">Examples</a></li>
+                            <li><a href="#" class="hover-link">Testing guides</a></li>
+                            <li><a href="#" class="hover-link">Help center</a></li>
+                            <li><a href="#" class="hover-link">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hover-link secondary-button">Sign in</a></li>
+                    <li><a href="#" class="hover-link primary-button">Sign up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link"><i class="fa-solid fa-bars" onclick="togglemenu()"></i></a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-data flex">
+            <img src="./images/asset 11.svg" alt="Card-sorting logo">
+            <h1>Card sorting</h1>
+            <p>Discover how to organize your content in a way that makes sense to your audience.</p>
+            <a href="#" class="hover-link primary-button">Get started</a>
+        </div>
+    </header>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-disc flex">
+                <h2>Understand how users group information</h2>
+                <p>Base your design decisions on data, not guesswork. Discover how your audience categorizes and labels
+                    your content.</p>
+            </div>
+            <div class="feature-img">
+                <img src="./images/deep-dive-into-data.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-img">
+                <img src="./images/feedback-in-minutes-p-800.png" alt="">
+            </div>
+            <div class="feature-disc flex">
+                <h2>Get feedback in minutes</h2>
+                <p>Share a link with your users or recruit your target audience via our integrated panel. You’ll start
+                    seeing insights in minutes — not days.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-disc flex">
+                <h2>Deliver an experience everyone will love</h2>
+                <p>Build your test in minutes by dragging and dropping images or copy and pasting from a list.</p>
+                <p>• Copy and paste for bulk items️</p>
+                <p>• Smooth mobile drag and drop UI</p>
+                <p>• Personalize welcome and instructions</p>
+                <p>• Test options for complete flexibility</p>
+            </div>
+            <div class="feature-img">
+                <img src="./images/users group information-p-800.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-img">
+                <img src="./images/deep-dive-into-data-p-800.png" alt="">
+            </div>
+            <div class="feature-disc flex">
+                <h2>Deep dive into data</h2>
+                <p>Analzye results quickly with real-time data visualization. Customize test results to uncover themes
+                    and insights.</p>
+                <p>• Card and category view</p>
+                <p>• Agreement matrix</p>
+                <p>• Similarity matrix</p>
+                <p>• Auto grouping and filtering of results</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-disc flex">
+                <h2>Confidently define your information architecture</h2>
+                <p>Card sorting is a well-established UX research method used to define navigation structures, organize
+                    product categories, and build content taxonomies. Learn all about this research method and how to
+                    run a card sort test with our comprehensive guide.</p>
+                <a href="#" class="hover-link secondary-button">Read our guide <i
+                        class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="feature-img">
+                <img src="./images/oval.png" alt="">
+                <a href="#">
+                    <div class="bgc">
+                        <img src="./images/guide_card.png" alt="">
+                        <div class="bgc-data">
+                            <p>Introduction to</p>
+                            <h3>Card sorting</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testing-section">
+        <div class="container flex testing-section-data">
+            <a href="#" class="testing-card">
+                <div class="testing-card-img">
+                    <img src="./images/asset 13.svg" alt="First click testing">
+                    <div class="feature-title">
+                        <h3>Prototype testings</h3>
+                        <p>Test how people navigate interactive Figma prototypes.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="testing-card">
+                <div class="testing-card-img">
+                    <img src="./images/asset 14.svg" alt="First click testing">
+                    <div class="feature-title">
+                        <h3>First click testing</h3>
+                        <p>Find out where people first click to complete a task.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="testing-card">
+                <div class="testing-card-img">
+                    <img src="./images/asset 16.svg" alt="First click testing">
+                    <div class="feature-title">
+                        <h3>Preference tests</h3>
+                        <p>Find out which designs people prefer and why.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="testing-card">
+                <div class="testing-card-img">
+                    <img src="./images/asset 17.svg" alt="First click testing">
+                    <div class="feature-title">
+                        <h3>Five second tests</h3>
+                        <p>Measure people’s first impressions to your designs.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="testing-card">
+                <div class="testing-card-img">
+                    <img src="./images/asset 15.svg" alt="First click testing">
+                    <div class="feature-title">
+                        <h3>Design surveys</h3>
+                        <p>Ask questions, collect opinions and gather insights.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="example-section">
+        <div class="container">
+            <div class="feature-header flex">
+                <h2>See what you can create</h2>
+                <a href="#" class="secondary-button">See more examples <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="examples-area flex">
+                <a href="#" class="example-card">
+                    <p class="card-text">How do users categorize products in my e-commerce site?</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container flex cta-section-data">
+            <h2>Join the world’s leading brands</h2>
+            <p>Over 100,000 designers, marketers, researchers, and UX professionals use UsabilityHub to take the guess
+                work out of design decisions.</p>
+            <a href="#" class="hover-link primary-button">Try it for free</a>
+
+            <!-- <div class="logos flex">
+                <img class="logo" src="./images/asset 3.png" alt="">
+                <img class="logo" src="./images/asset 4.png" alt="">
+                <img class="logo" src="./images/asset 5.png" alt="">
+                <img class="logo" src="./images/asset 6.png" alt="">
+                <img class="logo" src="./images/asset 7.png" alt="">
+                <img class="logo" src="./images/asset 8.svg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex footer-container">
+            <a href="#" class="company-logo flex">
+                <img src="./images/asset 1.png" alt="company_logo">
+            </a>
+            <div class="link-column flex">
+                <h4>Product</h4>
+                <a href="#" class="hover-link">Overview</a>
+                <a href="#" class="hover-link">Pricing</a>
+                <a href="#" class="hover-link">UsabilityHub panel</a>
+                <a href="#" class="hover-link">Customers</a>
+                <a href="#" class="hover-link">Status page</a>
+                <a href="#" class="hover-link">Sign up</a>
+                <a href="#" class="hover-link">Book a demo</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Methodologies</h4>
+                <a href="#" class="hover-link">Card sorting</a>
+                <a href="#" class="hover-link">Prototype testing</a>
+                <a href="#" class="hover-link">First click tests</a>
+                <a href="#" class="hover-link">Preference tests</a>
+                <a href="#" class="hover-link">Five second tests</a>
+                <a href="#" class="hover-link">Design surveys</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Resources</h4>
+                <a href="#" class="hover-link">Blog</a>
+                <a href="#" class="hover-link">Examples</a>
+                <a href="#" class="hover-link">Testing guides</a>
+                <a href="#" class="hover-link">Help center</a>
+                <a href="#" class="hover-link">Contact</a>
+                <a href="#" class="hover-link">Careers</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container flex sub-footer-container">
+            <a href="#" class="hover-link">Privacy policy</a>
+            <a href="#" class="hover-link">Terms & conditions</a>
+            <a href="#" class="hover-link">Security information</a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+
+    <script>
+        function togglemenu() {
+            document.getElementById("menu").classList.toggle("slider-bar");
+        }
+    </script>
+</body>
+
+</html>

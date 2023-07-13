@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overview</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/my-web-overview.css">
+</head>
+
+<body>
+
+    <div class="top-banner">
+        <div class="container">
+            <div class="banner-text">📣 Figma prototype testing just got a whole lot better! Read more →
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="container main-nav flex">
+            <a href="./my-website.html" class="company-logo flex">
+                <img src="./images/asset 1.png" alt="company_logo">
+                <div class="become-tester-text">Become a tester</div>
+            </a>
+            <div class="nav-links" id="menu">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Product <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-nav-link flex">
+                            <li><a href="./my-web-overview.html" class="hover-link">Overview</a></li>
+                            <li><a href="./card-sorting.html" class="hover-link">Card sorting</a></li>
+                            <li><a href="./prototype-testing.html" class="hover-link">Prototype testing</a></li>
+                            <li><a href="./design.survey.html" class="hover-link">Design surveys</a></li>
+                            <li><a href="./five-test.html" class="hover-link">Five second tests</a></li>
+                            <li><a href="./preferance.html" class="hover-link">Preference tests</a></li>
+                            <li><a href="./frist-click.html" class="hover-link">First click tests</a></li>
+                            <li><a href="./panel.html" class="hover-link">Panel</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hover-link">Customers</a></li>
+                    <li><a href="#" class="hover-link">Pricing</a></li>
+                    <li><a href="#" class="hover-link">Resources <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-nav-link flex">
+                            <li><a href="#" class="hover-link">Examples</a></li>
+                            <li><a href="#" class="hover-link">Testing guides</a></li>
+                            <li><a href="#" class="hover-link">Help center</a></li>
+                            <li><a href="#" class="hover-link">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hover-link secondary-button">Sign in</a></li>
+                    <li><a href="#" class="hover-link primary-button">Sign up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link"><i class="fa-solid fa-bars" onclick="togglemenu()"></i></a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-data flex">
+            <h2>The end-to-end remote user testing platform</h2>
+            <p>The UsabilityHub platform offers a comprehensive suite of testing tools that helps you uncover design
+                issues early, preventing wasted time, effort and user frustration.</p>
+        </div>
+    </header>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-img">
+                <img src="./images/deep-dive-into-data.png" alt="">
+            </div>
+            <div class="feature-disc flex">
+                <img src="./images/asset 11.svg" alt="">
+                <h2>Card sorting</h2>
+                <p>Discover how to organize your content in a way that makes sense to your audience.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex big-feature-section-2">
+            <div class="feature-disc flex">
+                <img src="./images/asset 13.svg" alt="">
+                <h2>Prototype testing</h2>
+                <p>Import your prototype from Figma and get powerful feedback from real users.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="feature-img">
+                <img src="./images/prototype.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-img">
+                <img src="./images/design-survay.jpg" alt="">
+            </div>
+            <div class="feature-disc flex">
+                <img src="./images/asset 15.svg" alt="">
+                <h2>Design surveys</h2>
+                <p>Put an end to internal debates by asking your users questions, validating assumptions and avoiding
+                    missteps.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex big-feature-section-2">
+            <div class="feature-disc flex">
+                <img src="./images/asset 17.svg" alt="">
+                <h2>Five second tests</h2>
+                <p>Optimise messaging on landing pages and reduce bounce rates by measuring people’s first impressions
+                    of your designs.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="feature-img">
+                <img src="./images/fivesec_result.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex">
+            <div class="feature-img">
+                <img src="./images/pref_options.jpg" alt="">
+            </div>
+            <div class="feature-disc flex">
+                <img src="./images/asset 16.svg" alt="">
+                <h2>Preference tests</h2>
+                <p>Participants choose from multiple design options in response to your specific question.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container big-feature-container flex big-feature-section-2">
+            <div class="feature-disc flex">
+                <img src="./images/asset 14.svg" alt="">
+                <h2>First click tests</h2>
+                <p>Assess the effectiveness of the links and content hierarchy by measuring how people complete tasks
+                    using your designs.</p>
+                <a href="#" class="secondary-button">Learn more <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="feature-img">
+                <img src="./images/frist-click_heatmap.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="recruitment-options">
+        <div class="container recruitment-options-data flex">
+            <div class="recruitment-options-left flex">
+                <p>Recruit from</p>
+                <h2>Your own participants</h2>
+                <p>Invite your customers to participate in tests or integrate with any participant panel that you’re
+                    using.</p>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/recru-1.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>No response limits</h3>
+                        <p>Recruit as many of your own participants as you like on any of our plans.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/post-test-redirects.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Post-test redirects</h3>
+                        <p>Integrate with third-party panels by redirecting users to completion URLs.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/multi-device-support.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Multi device support</h3>
+                        <p>UsabilityHub tests work on every device with nothing to set up or install.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/custom-test-branding.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Custom test branding</h3>
+                        <p>Provide a seamless experience by customising tests to suit your brand.</p>
+                    </div>
+                </div>
+                <a href="#" class="hover-link primary-button rct-btn">View plans</a>
+            </div>
+            <div class="recruitment-options-left recruitment-options-right flex">
+                <p>Recruit from</p>
+                <h2>The UsabilityHub panel</h2>
+                <p>Order responses from your exact target users in minutes using our integrated 450,000+ participant
+                    panel.</p>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/demographic-targeting.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Demographic targeting</h3>
+                        <p>Choose from over 35 demographic attributes to target, including age, location, gender, and
+                            more.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/response.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Response quality guaranteed</h3>
+                        <p>Our manual and automated QA reviews ensure high participant quality.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/lighting-fast-fulfilment.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Lightning-fast fulfilment</h3>
+                        <p>Our real-time notification system means you start getting responses in minutes.</p>
+                    </div>
+                </div>
+                <div class="recruitment-feature flex">
+                    <div class="recruitment-feature-icon">
+                        <img src="./images/wont-break-the-bank.svg" alt="">
+                    </div>
+                    <div class="recruitment-feature-content">
+                        <h3>Won’t break the bank</h3>
+                        <p>Recruiting from our panel starts at $1 per participant and free demographic targeting.</p>
+                    </div>
+                </div>
+                <a href="#" class="hover-link primary-button rct-btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="companies-section">
+        <div class="container companies-section-data">
+            <div class="company-header">
+                <h3>The world’s best companies rely on UsabilityHub to make better design decisions.</h3>
+            </div>
+            <div class="logos flex">
+                <img class="logo" src="/images/asset 3.png" alt="">
+                <img class="logo" src="./images/asset 4.png" alt="">
+                <img class="logo" src="./images/asset 5.png" alt="">
+                <img class="logo" src="./images/asset 6.png" alt="">
+                <img class="logo" src="./images/asset 7.png" alt="">
+                <img class="logo" src="./images/asset 8.svg" alt="">
+                <img class="logo" src="./images/asset 9.png" alt="">
+            </div>
+            <a href="#" class="hover-link primary-button Join-them">Join them today</a>
+        </div>
+    </section>
+
+    <section class="pagesection">
+        <div class="container pagesection-data flex">
+            <div class="item-1 flex">
+                <img src="./images/split-testing.svg" alt="">
+                <h3>Audience split testing</h3>
+                <p>Ensuring each participant on a test is unique to iterate on designs with fresh data every time.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/free-text-analysis.svg" alt="">
+                <h3>Open text analysis</h3>
+                <p>Visualise and tag open text responses to quickly identify common themes in your data.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/funnel-analysis.svg" alt="">
+                <h3>Funnel analysis</h3>
+                <p>Identify which step in an interaction flow causes the greatest drop-offs and user frustration.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/visualisations.svg" alt="">
+                <h3>Click visualisations</h3>
+                <p>Highlight regions to get exact counts of user clicks or visualise them using heat maps.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/task-durations.svg" alt="">
+                <h3>Task durations</h3>
+                <p>Spot areas of confusion with granular timing data for each task participants perform.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/csv-exports.svg" alt="">
+                <h3>CSV exports</h3>
+                <p>Export your full test data and run in-depth analysis in any tool of your choice.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/per-questions-filters.svg" alt="">
+                <h3>Per questions filters</h3>
+                <p>Drill down into response data by filtering on participants' answers and task completions.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/device-frames.svg" alt="">
+                <h3>Device targeting</h3>
+                <p>Add validity by specifying which devices tests can be taken on, more closely emulating your design's intended platform.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/eye-off.svg" alt="">
+                <h3>Logic</h3>
+                <p>Ask questions based on how participants answered previous questions.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/globe.svg" alt="">
+                <h3>Translations</h3>
+                <p>Present the test-taking interface to testers in any of the 30 languages we support.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/crosshair.svg" alt="">
+                <h3>Custom variables</h3>
+                <p>Pass variables into your self-recruited test by using query strings in your custom URL.</p>
+            </div>
+            <div class="item-1 flex">
+                <img src="./images/list.svg" alt="">
+                <h3>Multi-section tests</h3>
+                <p>Combine different test-taking methodologies and section types into a single test.</p>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container flex footer-container">
+            <a href="#" class="company-logo flex">
+                <img src="./images/asset 1.png" alt="company_logo">
+            </a>
+            <div class="link-column flex">
+                <h4>Product</h4>
+                <a href="#" class="hover-link">Overview</a>
+                <a href="#" class="hover-link">Pricing</a>
+                <a href="#" class="hover-link">UsabilityHub panel</a>
+                <a href="#" class="hover-link">Customers</a>
+                <a href="#" class="hover-link">Status page</a>
+                <a href="#" class="hover-link">Sign up</a>
+                <a href="#" class="hover-link">Book a demo</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Methodologies</h4>
+                <a href="#" class="hover-link">Card sorting</a>
+                <a href="#" class="hover-link">Prototype testing</a>
+                <a href="#" class="hover-link">First click tests</a>
+                <a href="#" class="hover-link">Preference tests</a>
+                <a href="#" class="hover-link">Five second tests</a>
+                <a href="#" class="hover-link">Design surveys</a>
+            </div>
+            <div class="link-column flex">
+                <h4>Resources</h4>
+                <a href="#" class="hover-link">Blog</a>
+                <a href="#" class="hover-link">Examples</a>
+                <a href="#" class="hover-link">Testing guides</a>
+                <a href="#" class="hover-link">Help center</a>
+                <a href="#" class="hover-link">Contact</a>
+                <a href="#" class="hover-link">Careers</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container flex sub-footer-container">
+            <a href="#" class="hover-link">Privacy policy</a>
+            <a href="#" class="hover-link">Terms & conditions</a>
+            <a href="#" class="hover-link">Security information</a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="hover-link"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+
+    <script>
+        function togglemenu() {
+            document.getElementById("menu").classList.toggle("slider-bar");
+        }
+    </script>
+</body>
+
+</html>
